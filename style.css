@@ -14,25 +14,14 @@ div {
     border-radius: 8px;
     text-align: center; 
 }
-/* Hier könnt ihr einmal testen was die unterschiedlichen Sachen wie zum Beispiel color, background-color, font-size, font-weight, font-family usw machen */
-h1 {
-    
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
-h2 {
-
-}
-h3 {
-}
-h4 {
-}
-h5 {
-}
-h6 {
-
+button {
+    border-radius: 15px;
 }
 
-
-.header-container, .list-container, .color-container, .font-container {
+.header-container, .list-container, .color-container, .font-container, .interactive-container, .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,11 +29,21 @@ h6 {
     border-radius: 8px;
     gap: 25px;
     overflow: hidden;
+    margin: 0;
 }
 .Ordered, .Unordered {
     border: none;
 }
-.color-bg-show-red, .color-bg-show-blue, .color-bg-show-green{
+.noborder{
+    border: none;
+}
+.nomargin{
+    margin: 0;
+}
+.nopadding {
+    padding: 0;
+}
+.color-bg-show-red, .color-bg-show-blue, .color-bg-show-green, .button-show-Hover, .button-show-Click{
     min-height: 95%;
     min-width: 25%;
     margin: 0;
@@ -58,19 +57,24 @@ h6 {
 .color-bg-show-red{
     background-color: red;
 }
-.font1{
+.font1, .font2, .font3 {
+    margin: 0;
+    padding: 0;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
+.font1{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .font2{
-    border: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large
 }
 .font3{
-    border: none;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large
-
+}
+.button-show-Hover:hover {
+    transition: 0.2s;
+    transform: scale(1.1);
+    background-color: red;
+    color: wheat;
 }

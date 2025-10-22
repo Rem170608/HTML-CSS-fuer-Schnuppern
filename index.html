@@ -7,50 +7,83 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header-container">
-        <h1>H1</h1>
-        <h2>H2</h2>
-        <h3>H3</h3>
-        <h4>H4</h4>
-        <h5>H5</h5>
-        <h6>H6</h6>
-        <p>P</p>
-    </div>
-    <hr>
-    <div class="list-container">
-        <div class="Ordered">
-            <p>Ordered List:</p>
-            <ol>
-                <li>Ich bin am anfang</li>
-                <li>Ich bin in der Mitte</li>
-                <li>Ich bin am Schluss</li>
-            </ol>
-        </div>
-        <div class="Unordered">
-            <p>Unordered List:</p>
-            <ul>
-                <li>Ich bin am anfang</li>
-                <li>Ich bin in der Mitte</li>
-                <li>Ich bin am Schluss</li>
-            </ul>
+    <div>
+        <h2>Text Arten</h2>
+        <div class="header-container noborder">
+            <h1>H1</h1>
+            <h2>H2</h2>
+            <h3>H3</h3>
+            <h4>H4</h4>
+            <h5>H5</h5>
+            <h6>H6</h6>
+            <p>P</p>
         </div>
     </div>
     <hr>
-    <div class="color-container">
-        <div class="color-bg-show-red"></div>
-        <div class="color-bg-show-blue"></div>
-        <div class="color-bg-show-green"></div>
+    <div>
+        <h2>Listen Arten</h2>
+        <div class="list-container noborder">
+            <div class="Ordered nomargin nopadding">
+                <p>Ordered List:</p>
+                <ol>
+                    <li>Ich bin am anfang</li>
+                    <li>Ich bin in der Mitte</li>
+                    <li>Ich bin am Schluss</li>
+                </ol>
+            </div>
+            <div class="Unordered nomargin nopadding">
+                <p>Unordered List:</p>
+                <ul>
+                    <li>Ich bin am anfang</li>
+                    <li>Ich bin in der Mitte</li>
+                    <li>Ich bin am Schluss</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>Hintergrund Farben</h2>
+        <div class="color-container noborder">
+            <div class="color-bg-show-red"></div>
+            <div class="color-bg-show-blue"></div>
+            <div class="color-bg-show-green"></div>
+        </div>    
+    </div>
+    <hr>
+    <div>
+        <h2>Schriftarten und Style</h2>
+        <div class="font-container noborder">
+            <div class="noborder nopadding nomargin">
+                <p><b>Ich bin fett</b></p>
+                <p><i>Ich bin kursiv</i></p>
+                <p><b><i>Ich bin kursiv und fett</i></b></p>
+                <p style="color: red;">Ich bin Rot</p>
+            </div>
+            <div class="noborder nopadding nomargin">
+                <div class="font1"><p>Ich bin Arial</p></div>
+                <div class="font2"><p>Ich bin Times New Roman</p></div>
+                <div class="font3"><p>Ich bin Impact</p></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>Interaktives</h2>
+        <div class="interactive-container noborder nomargin">
+            <button class="button-show-Hover">Hover</button>
+            <button class="button-show-Click" onclick="alert('Es Funktioniert')">Click</button>
+            <a href="itworked.html">Link</a>
         
+        </div>
     </div>
     <hr>
-    <div class="font-container">
-        <p><b>Ich bin fett</b></p>
-        <p><i>Ich bin kursiv</i></p>
-        <p><b><i>Ich bin kursiv und fett</i></b></p>
-
-        <div class="font1"><p>Ich bin Arial</p></div>
-        <div class="font2"><p>Ich bin Times New Roman</p></div>
-        <div class="font3"><p>Ich bin Impact</p></div>
+    <div>
+        <h2>Bilder</h2>
+        <div class="img-container noborder nomargin">
+            <img src="Logo_Noser_Young_rgb-400x85.png" alt="Noser Young logo">
+            <img src="meme_cat.jpg" alt="meme_cat" style="max-height: 100px; max-width: auto;">
+        </div>
     </div>
 </body>
 </html>
