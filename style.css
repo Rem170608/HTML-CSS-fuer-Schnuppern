@@ -8,13 +8,15 @@ body {
 }
 div {
     padding: 20px;
-    background-color: #ffffff;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #8b8888;
     border-radius: 8px;
     text-align: center; 
 }
 /* Hier könnt ihr einmal testen was die unterschiedlichen Sachen wie zum Beispiel color, background-color, font-size, font-weight, font-family usw machen */
 h1 {
-
+    
 }
 h2 {
 
@@ -30,12 +32,29 @@ h6 {
 }
 
 
-.header-container {
+.header-container, .list-container, .color-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
-    background-color: #ffffff;
     border-radius: 8px;
     gap: 25px;
+    overflow: hidden;
 }
-
+.Ordered, .Unordered {
+    border: none;
+}
+.color-bg-show-red, .color-bg-show-blue, .color-bg-show-green{
+    min-height: 95%;
+    min-width: 25%;
+    margin: 0;
+}
+.color-bg-show-blue{
+    background-color: blue;
+}
+.color-bg-show-green{
+    background-color: green;
+}
+.color-bg-show-red{
+    background-color: red;
+}
