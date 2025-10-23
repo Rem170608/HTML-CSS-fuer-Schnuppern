@@ -78,3 +78,6 @@ button {
     background-color: red;
     color: wheat;
 }
+.hide {
+    display: none;
+}
